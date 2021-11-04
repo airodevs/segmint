@@ -14,7 +14,7 @@ function segmint(&name, ...$args)
 		include("/" + $name)
 	} catch()
 	{
-		echo("Segmint not found! Check the name is spelled correctly and that the segmint file is in the proper location.")
+		echo("Segmint not found! Check the name is spelled correctly and that the module file is in the proper location.")
 	}
 }
 
