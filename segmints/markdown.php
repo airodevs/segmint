@@ -8,15 +8,15 @@
 // FINISHED COMMAND SHOULD LOOK LIKE:
 // segmint("markdown", $file); >> WHERE $file IS PATH TO FILE
 
-include("../resources/parsedown.php");
+include("./resources/parsedown.php");
 
-$parser = new Parsedown();
+
 
 function Parse($path)
 {
-    global $parser;
+    $parser = new Parsedown();
     $text = file_get_contents($path);
-    $parser->text($text);
+    echo($parser->text($text));
 }
 
 Parse($arguments[0]);
