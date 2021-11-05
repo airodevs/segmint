@@ -1,3 +1,5 @@
+<!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css"> -->
+<link rel="stylesheet" href="/css/main.css">
 <?php
 
 function segmint($name, ...$args)

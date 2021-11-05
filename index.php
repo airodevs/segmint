@@ -1,3 +1,7 @@
-<?php include("util.php");
+<?php include("util.php"); ?>
 
-segmint("markdown", "text.txt");
+<main>
+
+    <?php segmint("markdown", "text.txt"); ?>
+
+</main>

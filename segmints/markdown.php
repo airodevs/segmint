@@ -16,7 +16,11 @@ function Parse($path)
 {
     $parser = new Parsedown();
     $text = file_get_contents($path);
-    echo($parser->text($text));
+    ?>
+    <markdown>
+        <?php echo($parser->text($text)); ?>
+    </markdown>
+    <?php
 }
 
 Parse($arguments[0]);
