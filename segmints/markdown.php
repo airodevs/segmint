@@ -12,7 +12,7 @@ include("./resources/parsedown.php");
 
 
 
-function Parse($path)
+function markdownParse($path)
 {
     $parser = new Parsedown();
     $text = file_get_contents($path);
@@ -23,6 +23,6 @@ function Parse($path)
     <?php
 }
 
-Parse($arguments[0]);
+markdownParse($arguments[0]);
 
 ?>
