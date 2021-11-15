@@ -2,6 +2,8 @@
 <link rel="stylesheet" href="/css/main.css">
 <?php
 
+include("config.php");
+
 function segmint($name, ...$args)
 {
 	$arguments = array();
