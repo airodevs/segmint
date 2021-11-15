@@ -11,7 +11,8 @@ return $config = array(
     "db_host" => "",
 
     "sitename" => "",
-    
+
+    "installed" => false;
 );
 
 
