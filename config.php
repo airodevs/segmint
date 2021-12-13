@@ -30,8 +30,12 @@ function getLang()
     }
 }
 
+$lang = getLang();
+
 $lang_en = array(
     "login" => "Log in",
+
+    "seg_error" => "Segmint not found! Check the name is spelled correctly and that the module file is in the correct location.",
 );
 
 $lang_de = array(

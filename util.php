@@ -19,7 +19,7 @@ function segmint($name, ...$args)
 		include($pathToFile);
 	} catch(Exception $e)
 	{
-		echo("Segmint not found! Check the name is spelled correctly and that the module file is in the proper location.");
+		echo($lang["seg_error"]);
 	}
 }
 
